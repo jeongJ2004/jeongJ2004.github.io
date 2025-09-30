@@ -554,9 +554,11 @@ main {
 .service-item-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
-  font-weight: var(--fw-3);
+  font-weight: var(--fw-300);
   line-height: 1.6;
 }
+
+
 
 
 /**
@@ -933,8 +935,9 @@ main {
   border-radius: 8px;
 }
 
-.select-item button:hover { --eerie-black-2: hsl(240, 2%, 20%); }
-
+.select-item button:hover {
+  background: hsl(240, 2%, 20%);
+}
 .project-list {
   display: grid;
   grid-template-columns: 1fr;
