@@ -292,6 +292,9 @@ article.active {
   z-index: -1;
 }
 
+.inline-block {
+  display: inline-block;
+}
 
 
 
